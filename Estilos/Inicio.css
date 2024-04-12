@@ -1,0 +1,11 @@
+nav{
+    padding-top: calc(70px + 3vh) ;
+    text-align: center  
+}
+
+a.botão {
+    margin: 20px 10px;
+    padding: 30px 50px;
+    line-height: 150px;
+    
+}

@@ -1,0 +1,135 @@
+@media screen and (max-width: 500px) {
+    h1{
+        width: 250px;
+        margin: auto;
+    }
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+html, body{   
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: calc(110px + 3vh);
+    border: 3px solid black;
+    width: 100vw;
+}
+
+header > p {
+    padding: 15px 0px 0px 15px;
+    font-size: 1.2em;
+}
+
+h1{
+     text-align: center;
+}
+
+header > span{
+    position: absolute;
+    display: block;
+}
+
+
+.material-symbols-outlined {
+    font-size: 70px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    cursor: pointer;
+}
+
+main{
+    height: calc(100vh - (110px + 3vh));
+    width: 100vw;
+}
+#Formulario{
+    width: 300px;
+    height: 330px;
+    top: calc(330px + 3vh)  ;
+    left: 50%;
+    position: absolute;
+    transform: translate( -50%, -50%);
+    border:  4px solid rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+#Formulario > legend{
+    top: -19px;
+    left: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    width: 54px;
+    padding-left: 4px;
+    position: relative;
+    background-color: white;
+}
+
+div.campo{
+    display: block;
+}
+
+div.campo > p{
+    width: 80px;
+    padding: 16px 10px 14px 15px;
+    display: inline-block;    
+    font-weight: bolder;
+}
+
+div.campo > input {
+    margin: 3px;
+    border: 3px solid black;
+    border-radius: 1px;
+}
+
+#Formulario > p {
+    width: auto;
+    text-align: right;
+    padding: 10px 30px 15px 0px;
+}
+
+.botão {
+    
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 4px 4px 0px black;
+    font-weight: bolder;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.botão:hover {
+    background-color: rgba(215, 221, 225, 0.673);
+}
+
+.botão:active{
+    color: white;
+    background-color: black;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: none;
+
+}
+
+input.botão {
+    display: block;
+}
+
+a.botão {
+    text-decoration: none;
+    color: black;
+    width: auto;
+}
+
+input#Entrar {
+    height: 30px;
+    width: 70px;
+    margin: 20px auto 0px auto;
+}

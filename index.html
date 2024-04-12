@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos/Login.css">
+    <link rel="stylesheet" href="Estilos/Login-e-Base.css">
     <title>Login</title>
 </head>
 <header>
@@ -13,22 +13,20 @@
 </header>
 <body>
     <main>
-        <section id="login">
-            <div id="Formulario">
-                <h2>Login</h2>
-                <div class="campo">
-                    <p>Usuário</p>
-                    <input type="text" name="Usuário" id="Usuário" autocomplete="name" required maxlength="30">
-                </div> 
-                <div class="campo">
-                    <p>Senha</p>
-                    <input type="password" name="Senha" id="senha" autocomplete="current-password" required minlength="6" required maxlength="20">
-                </div>
-                <a href="PrimeiraVez.html" class="link">Primeira vez aqui?</a><br>
-                <a href="EsqueceuSenha.html" class="link">esqueceu sua senha?</a><br>
-                <input type="submit" value="Entrar">
+        <form action="dados/Login.php" method="POST" id="Formulario">
+            <legend>Login</legend>
+            <div class="campo">
+                <p>Usuário</p>
+                <input type="text" name="Usuário" id="Usuário" autocomplete="name" required maxlength="30">
+            </div> 
+            <div class="campo">
+                <p>Senha</p>
+                <input type="password" name="Senha" id="senha" autocomplete="current-password" required minlength="6" required maxlength="20">
             </div>
-        </section>
+            <p><a href="PrimeiraVez.html" class="link">Primeira vez aqui?</a></p>
+            <p><a href="EsqueceuSenha.html" class="link">esqueceu sua senha?</a></p>
+            <input id="Entrar" class="botão" type="submit" nome="submit" value="Entrar">      
+        </form>
     </main>
 </body>
 <footer></footer>
