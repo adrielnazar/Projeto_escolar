@@ -46,6 +46,14 @@ header > span{
     cursor: pointer;
 }
 
+
+div.menu{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
 main{
     height: calc(100vh - (110px + 3vh));
     width: 100vw;
@@ -62,15 +70,12 @@ main{
 }
 
 #Formulario > legend{
-    top: -19px;
-    left: 10px;
     padding-bottom: 10px;
     font-size: 1.1em;
     font-weight: bolder;
     width: 54px;
     padding-left: 4px;
     position: relative;
-    background-color: white;
 }
 
 div.campo{
@@ -128,7 +133,7 @@ a.botão {
     width: auto;
 }
 
-input#Entrar {
+input#submit {
     height: 30px;
     width: 70px;
     margin: 20px auto 0px auto;

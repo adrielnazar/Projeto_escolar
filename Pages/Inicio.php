@@ -1,3 +1,13 @@
+<?php
+    session_start();
+    if ((!isset($_SESSION["usuario"]) == true)and (!isset($_SESSION["senha"]) == true)) {
+        unset($_SESSION['usuario']);
+        unset($_SESSION['senha']);
+        header('Location: ../index.html');
+    }
+    $_logado = $_SESSION['usuario'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,6 +24,12 @@
     <span class="material-symbols-outlined">
         account_circle
     </span>
+    <div class="menu">
+        <ul>
+            <li><a href="" class="Opções">Alterar</a></li>
+            <li><a href="" class="Opções">Sair</a></li>
+        </ul>
+    </div>
 </header>
 <body>
     <nav>
@@ -23,5 +39,6 @@
         <a href="" class="botão">Diciplina</a>
         <a href="" class="botão">Turma</a>
     </nav>
+    <div class="menu"></div>
 </body>
 </html>

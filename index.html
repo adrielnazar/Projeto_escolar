@@ -13,21 +13,24 @@
 </header>
 <body>
     <main>
-        <form action="dados/Login.php" method="POST" id="Formulario">
-            <legend>Login</legend>
-            <div class="campo">
-                <p>Usuário</p>
-                <input type="text" name="Usuário" id="Usuário" autocomplete="name" required maxlength="30">
-            </div> 
-            <div class="campo">
-                <p>Senha</p>
-                <input type="password" name="Senha" id="senha" autocomplete="current-password" required minlength="6" required maxlength="20">
-            </div>
-            <p><a href="PrimeiraVez.html" class="link">Primeira vez aqui?</a></p>
-            <p><a href="EsqueceuSenha.html" class="link">esqueceu sua senha?</a></p>
-            <input id="Entrar" class="botão" type="submit" nome="submit" value="Entrar">      
+        <form action="dados/Login.php" method="POST">
+            <fieldset id="Formulario">
+                <legend>Login</legend>
+                <div class="campo">
+                    <p>Usuário</p>
+                    <input type="text" name="Usuário" id="Usuários" autocomplete="name" required maxlength="30">
+                </div> 
+                <div class="campo">
+                    <p>Senha</p>
+                    <input type="password" name="Senha" id="Senhas" autocomplete="current-password" required minlength="6" required maxlength="20">
+                </div>
+                <p><a href="PrimeiraVez.html" class="link">Primeira vez aqui?</a></p>
+                <p><a href="EsqueceuSenha.html" class="link">esqueceu sua senha?</a></p>
+                <input type="submit" name="submit" id="submit" class="botão" value="Entrar">
+            </fieldset> 
         </form>
     </main>
 </body>
 <footer></footer>
 </html>
+
