@@ -1,6 +1,6 @@
 nav{
     padding-top: calc(70px + 3vh) ;
-    text-align: center  
+    text-align: center;
 }
 
 a.botão {
@@ -9,3 +9,4 @@ a.botão {
     line-height: 150px;
     
 }
+

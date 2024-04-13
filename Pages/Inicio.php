@@ -21,17 +21,18 @@
 <header>
     <p>Edu Station</p>
     <h1>Direção Workstation</h1>
-    <span class="material-symbols-outlined">
+    
+    <span class="material-symbols-outlined" onclick="menu()">
         account_circle
     </span>
-    <div class="menu">
-        <ul>
-            <li><a href="" class="Opções">Alterar</a></li>
-            <li><a href="" class="Opções">Sair</a></li>
-        </ul>
-    </div>
+    <ul id="user" class="fora">
+        <a href="" class="Opções"><li>Alterar</li></a>
+        <a href="../dados/Sair.php" class="Opções"><li>Sair</li></a>
+    </ul>
+    
 </header>
 <body>
+    <main onclick="fechar()">
     <nav>
         <a href="" class="botão">Direção</a>
         <a href="" class="botão">Docente</a>
@@ -39,6 +40,7 @@
         <a href="" class="botão">Diciplina</a>
         <a href="" class="botão">Turma</a>
     </nav>
-    <div class="menu"></div>
+    </main>
+    <script src="menu.js"></script>
 </body>
 </html>
