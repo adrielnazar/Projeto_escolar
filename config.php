@@ -1,7 +1,7 @@
 <?php
-    $dbHost = 'roundhouse.proxy.rlwy.net';
+    $dbHost = 'Localhost';
     $dbUsername = 'root';
-    $dbPassword = 'euTAJVdNQdsdsBITOFiOdOykTYhGpgXa';
+    $dbPassword = '006966';
     $dbName = 'dados_escolares';
 
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
