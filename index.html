@@ -6,22 +6,20 @@
     <link rel="stylesheet" href="Estilos/Login-e-Base.css">
     <title>Login</title>
 </head>
-<header>
-    <p>Edu Station</p>
-    <h1>Direção Workstation</h1>
-    
-</header>
 <body>
+    <header>
+        <p>Edu Station</p>
+        <h1>Direção Workstation</h1>
+        
+    </header>
     <main>
         <form action="dados/Login.php" method="POST">
-            <fieldset id="Formulario">
+            <fieldset id="Formulario" class="Formulário">
                 <legend>Login</legend>
                 <div class="campo">
-                    <p>Usuário</p>
-                    <input type="text" name="Usuário" id="Usuários" autocomplete="name" required maxlength="30">
-                </div> 
-                <div class="campo">
-                    <p>Senha</p>
+                    <label for="Nome">Usuário</label>
+                    <input type="text" name="Usuário" id="Usuários" autocomplete="name" required maxlength="30"><br>
+                    <label for="senha">Senha</label>
                     <input type="password" name="Senha" id="Senhas" autocomplete="current-password" required minlength="6" required maxlength="20">
                 </div>
                 <p><a href="PrimeiraVez.html" class="link">Primeira vez aqui?</a></p>

@@ -1,0 +1,55 @@
+h2 {
+    width: 94vw;
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin: auto;
+    padding: 10px;
+
+}
+
+#adição{
+    display: inline-block;
+    font-size: 1.3em;
+    color: black;
+    transform: translate(0px, 5px);
+}
+
+div > label, div.pesquisa > input.botão{
+    display: inline-block;
+    margin: 5px;  
+}
+
+div.pesquisa, table{
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+input.pesquisa{
+    height: 30px;
+    width: 40vw;
+    border: 3px solid black;
+}
+
+input.botão {
+    height: 30px;
+    width: 100px;
+}
+
+table{
+    width: 70vw;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td{
+    padding: 5px;
+    border-right: 3px solid black;
+}
+
+tr.Primeiro{
+    background-color: rgb(194, 194, 194);
+}
+
+tr:nth-child(even){
+    background-color: rgb(228, 228, 228);
+}

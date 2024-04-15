@@ -1,0 +1,16 @@
+.Formulário > .campo{
+    padding-left: 30px;
+}
+
+.campo > .botão{
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+#senha {
+    display: none;
+}
+
+#Alterar {
+    margin: 12px auto;
+}

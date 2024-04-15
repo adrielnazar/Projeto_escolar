@@ -18,23 +18,21 @@
     <link rel="stylesheet" href="../Estilos/Login-e-Base.css">
     <link rel="stylesheet" href="../Estilos/Inicio.css">
 </head>
-<header>
-    <p>Edu Station</p>
-    <h1>Direção Workstation</h1>
-    
-    <span class="material-symbols-outlined" onclick="menu()">
-        account_circle
-    </span>
-    <ul id="user" class="fora">
-        <a href="" class="Opções"><li>Alterar</li></a>
-        <a href="../dados/Sair.php" class="Opções"><li>Sair</li></a>
-    </ul>
-    
-</header>
 <body>
+    <header>
+        <p>Edu Station</p>
+        <h1>Direção Workstation</h1>
+        <span id="usuario" class="material-symbols-outlined" onclick="menu()">
+            account_circle
+        </span>
+        <ul id="user" class="fora">
+            <a href="Direção/AlterarDirecao.php" class="Opções"><li>Alterar</li></a>
+            <a href="../dados/Sair.php" class="Opções"><li>Sair</li></a>
+        </ul>
+    </header>
     <main onclick="fechar()">
     <nav>
-        <a href="" class="botão">Direção</a>
+        <a href="Direção/DadosDirecao.php" class="botão">Direção</a>
         <a href="" class="botão">Docente</a>
         <a href="" class="botão">Aluno(a)</a>
         <a href="" class="botão">Diciplina</a>
